@@ -1,0 +1,257 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e02afaef-3497-48e5-b212-4be3ddc708e3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Магазины</ID>
+  <Name>Магазины</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-999" scrolltop="-3559" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="10266" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Магазины" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5556" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b41500004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_StoreTable" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-999</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3559</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="145">
+            <Shape Id="ИД Магазина" Expanded="false">
+              <Attributes>
+                <Attribute Id="ИД Магазина" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Номер Телефона" Expanded="false">
+              <Attributes>
+                <Attribute Id="Номер Телефона" />
+              </Attributes>
+              <Position x="206" y="20" />
+            </Shape>
+            <Shape Id="Адрес" Expanded="false">
+              <Attributes>
+                <Attribute Id="Адрес" />
+              </Attributes>
+              <Position x="392" y="20" />
+            </Shape>
+            <Shape Id="ИНН Магазина" Expanded="false">
+              <Attributes>
+                <Attribute Id="ИНН Магазина" />
+              </Attributes>
+              <Position x="578" y="20" />
+            </Shape>
+            <Shape Id="Название Магазина" Expanded="false">
+              <Attributes>
+                <Attribute Id="Название Магазина" />
+              </Attributes>
+              <Position x="765" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="77ddd197-2426-4f0c-ae20-97bd0ed6ab25">
+    <DataSourceViewID>БД Ремонт телефонов</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="037944a4-3345-4495-9472-066ae59a2200">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="64e48f50-0720-4836-85e7-e3adb8ea0910">
+      <ID>ИД Магазина</ID>
+      <Name>ИД Магазина</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="48abfc64-57f7-4734-ad2f-a166645794f6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5da6f4e5-e812-4982-b024-0dd405ade80c">
+            <TableID>dbo_StoreTable</TableID>
+            <ColumnID>IdStore</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ec3fe73e-85fe-456c-97fe-435fd771239e">
+          <AttributeID>Номер Телефона</AttributeID>
+          <Name>Номер Телефона</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="81b9bd2b-be2e-4a1c-a9eb-0f6a360f5954">
+      <ID>Название Магазина</ID>
+      <Name>Название Магазина</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4d07015e-5e5a-4a70-9362-0938928a4b5d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3efb28a3-1b90-43d7-8f54-fbec0baa19cb">
+            <TableID>dbo_StoreTable</TableID>
+            <ColumnID>NameStore</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2808f831-8542-4291-9046-15735adf724a">
+      <ID>ИНН Магазина</ID>
+      <Name>ИНН Магазина</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="69523780-28a2-4c0d-9210-a0def6540617">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4f75ac87-d00b-4f47-bfe6-02b6dcf72852">
+            <TableID>dbo_StoreTable</TableID>
+            <ColumnID>INNStore</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f2bec2aa-d236-4bab-a5a2-e0992ea0186d">
+          <AttributeID>Название Магазина</AttributeID>
+          <Name>Название Магазина</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5e343e28-aec8-4a91-aa58-fd4ebe782993">
+      <ID>Адрес</ID>
+      <Name>Адрес</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="16733a0d-1aaa-4784-8cae-5ac03009cb3e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="920a696b-24bf-4eb5-8960-10514ed429c0">
+            <TableID>dbo_StoreTable</TableID>
+            <ColumnID>Address</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d9eb065a-5740-4ed3-9f78-2d3e9222db76">
+          <AttributeID>ИНН Магазина</AttributeID>
+          <Name>ИНН Магазина</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="90fd0b2f-061e-4869-8466-2da97bfd6dfc">
+      <ID>Номер Телефона</ID>
+      <Name>Номер Телефона</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="91a34905-a9b8-4adb-82e9-1c8263a74e5a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2c93036f-fd94-4441-96c3-94903497f3b7">
+            <TableID>dbo_StoreTable</TableID>
+            <ColumnID>NumberPhone</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6d665aae-be64-4dc9-a905-b64a10a25abe">
+          <AttributeID>Адрес</AttributeID>
+          <Name>Адрес</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="8e2d8ec7-647b-4f18-b98f-6450ad637ff6">
+      <ID>Иерархия</ID>
+      <Name>Иерархия</Name>
+      <Levels>
+        <Level dwd:design-time-name="e72d58a5-3c2b-4264-88a9-eb75bce0e5ec">
+          <ID>Название Магазина</ID>
+          <Name>Название Магазина</Name>
+          <SourceAttributeID>Название Магазина</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="b4aafae7-34cf-4f76-b39a-7c97c9540dc1">
+          <ID>ИНН Магазина</ID>
+          <Name>ИНН Магазина</Name>
+          <SourceAttributeID>ИНН Магазина</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="22acbc89-22ab-4930-9219-c9dce35bf840">
+          <ID>Адрес</ID>
+          <Name>Адрес</Name>
+          <SourceAttributeID>Адрес</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="7128614e-3de9-4f4c-924f-99c89ae39714">
+          <ID>Номер Телефона</ID>
+          <Name>Номер Телефона</Name>
+          <SourceAttributeID>Номер Телефона</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

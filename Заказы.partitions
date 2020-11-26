@@ -1,0 +1,105 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cddb5de5-f341-48e1-b5d7-7972a55bd488" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Заказы</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Все Детали</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2efa81a8-dba8-4f52-a753-5e71d8f1aa12">
+          <ID>Все Детали</ID>
+          <Name>Все Детали</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fd07de17-08ec-45b5-9180-753e2f4a8ecb">
+            <DataSourceViewID>БД Ремонт телефонов</DataSourceViewID>
+            <TableID>dbo_AllDetailsTable</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Все Услуги</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ea95cf56-e671-426d-8599-f958d69182a3">
+          <ID>Все Услуги</ID>
+          <Name>Все Услуги</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c4f570d2-c761-4fb0-8b3b-27e5428a5769">
+            <DataSourceViewID>БД Ремонт телефонов</DataSourceViewID>
+            <TableID>dbo_AllServicesTable</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Заказы</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1a0b7ee3-492d-4a7d-842f-2cc0a8c60702">
+          <ID>Заказы</ID>
+          <Name>Заказы</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4bbb87ce-b5d7-44ee-8e45-8c7dbd3f7b1d">
+            <DataSourceViewID>БД Ремонт телефонов</DataSourceViewID>
+            <TableID>dbo_OrderTable</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Цены Деталей</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="9a03d151-056b-41bf-bbf6-f84a5aa1bc80">
+          <ID>Цены Деталей</ID>
+          <Name>Цены Деталей</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="82963925-ffa8-43fc-9d79-9c1ce014a10d">
+            <DataSourceViewID>БД Ремонт телефонов</DataSourceViewID>
+            <TableID>dbo_PriceDetail</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Цены Услуг</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="3f325a66-c2cd-4485-8b81-856d879f40bc">
+          <ID>Цены Услуг</ID>
+          <Name>Цены Услуг</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1b29c003-d807-4a85-8667-fe2a08e36df1">
+            <DataSourceViewID>БД Ремонт телефонов</DataSourceViewID>
+            <TableID>dbo_PriceService</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

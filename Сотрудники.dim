@@ -1,0 +1,325 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7285b57c-ae35-4ab2-9896-edfa1414b528" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Сотрудники</ID>
+  <Name>Сотрудники</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-20" scrolltop="-3136" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="10266" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Сотрудники" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="7514" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00005a1d00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_EmployeeTable" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3136</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="5" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="173">
+            <Shape Id="ИД Сотрудника" Expanded="false">
+              <Attributes>
+                <Attribute Id="ИД Сотрудника" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Электронная Почта" Expanded="false">
+              <Attributes>
+                <Attribute Id="Электронная Почта" />
+              </Attributes>
+              <Position x="241" y="20" />
+            </Shape>
+            <Shape Id="Номер Телефона" Expanded="false">
+              <Attributes>
+                <Attribute Id="Номер Телефона" />
+              </Attributes>
+              <Position x="462" y="20" />
+            </Shape>
+            <Shape Id="Серия и Номер Паспорта" Expanded="false">
+              <Attributes>
+                <Attribute Id="Серия и Номер Паспорта" />
+              </Attributes>
+              <Position x="683" y="20" />
+            </Shape>
+            <Shape Id="Адрес" Expanded="false">
+              <Attributes>
+                <Attribute Id="Адрес" />
+              </Attributes>
+              <Position x="905" y="20" />
+            </Shape>
+            <Shape Id="ФИО" Expanded="false">
+              <Attributes>
+                <Attribute Id="ФИО" />
+              </Attributes>
+              <Position x="1126" y="20" />
+            </Shape>
+            <Shape Id="Должность" Expanded="false">
+              <Attributes>
+                <Attribute Id="Должность" />
+              </Attributes>
+              <Position x="1347" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="664841f3-7440-4b8a-b6ba-7ff81ff37345">
+    <DataSourceViewID>БД Ремонт телефонов</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="fa8f91f1-9d5c-43c6-b33e-8ba3d8e4766f">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="100d7814-f391-43d1-ab86-7a178c6c882e">
+      <ID>ИД Сотрудника</ID>
+      <Name>ИД Сотрудника</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e939e69b-5d2f-43ab-964e-c5144368138b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6e4099fb-fdfa-4ea8-b1d2-1882e89a6a88">
+            <TableID>dbo_EmployeeTable</TableID>
+            <ColumnID>IdEmployee</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="18de1602-93dc-43b8-bc0f-2d2ff4e81ea1">
+          <AttributeID>Электронная Почта</AttributeID>
+          <Name>Электронная Почта</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d5b5ff19-6075-4b44-9cb6-694cb403b203">
+      <ID>Серия и Номер Паспорта</ID>
+      <Name>Серия и Номер Паспорта</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c51aa611-19b1-4be2-b02f-faa9de80080f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="49e80aa4-5810-4ce1-bc32-066c193e94c4">
+            <TableID>dbo_EmployeeTable</TableID>
+            <ColumnID>SerialNumberPassport</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="4cd051b0-89f4-4188-a1ba-fcc670617a5f">
+          <AttributeID>Адрес</AttributeID>
+          <Name>Адрес</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="066f5d9e-9015-4cfe-94e2-22b91e5230fc">
+      <ID>ФИО</ID>
+      <Name>ФИО</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7225c24f-e8bf-409f-818a-e274ad88b29e">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94ee4543-1f5d-48e7-bdef-391d34ccc864">
+            <TableID>dbo_EmployeeTable</TableID>
+            <ColumnID>FIO</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8581dac9-0157-4e5a-8de8-bfc0822c2054">
+          <AttributeID>Должность</AttributeID>
+          <Name>Должность</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="92de9850-4962-401d-90d8-144b613a6f18">
+      <ID>Должность</ID>
+      <Name>Должность</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1bcca5e0-a3f2-40c9-8a3e-d6abba2ea7f3">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="564eed92-97df-4322-91ee-c7401784234f">
+            <TableID>dbo_EmployeeTable</TableID>
+            <ColumnID>Position</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7ec58411-12c7-4af0-b1ca-2714bb7a636e">
+      <ID>Номер Телефона</ID>
+      <Name>Номер Телефона</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9310ae64-3a5b-4c99-919a-33de6888ca1e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="53bddc34-acce-4197-83d6-34e5bb819c91">
+            <TableID>dbo_EmployeeTable</TableID>
+            <ColumnID>NumberPhone</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="59204286-0d86-4c4b-abfa-ab4efda2138c">
+          <AttributeID>Серия и Номер Паспорта</AttributeID>
+          <Name>Серия и Номер Паспорта</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="209a365b-c79a-4c04-8395-ccd46c39a248">
+      <ID>Адрес</ID>
+      <Name>Адрес</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3659927e-df27-496f-8601-37a48b2b54b0">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a146ba9d-1282-4e4e-b23e-af93f945a387">
+            <TableID>dbo_EmployeeTable</TableID>
+            <ColumnID>Address</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="67d2dc73-b7f1-4fbc-971d-cdf6bcced68f">
+          <AttributeID>ФИО</AttributeID>
+          <Name>ФИО</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8440af75-737c-4683-bf43-dab7501c4933">
+      <ID>Электронная Почта</ID>
+      <Name>Электронная Почта</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="211ceb7a-9a67-4fdd-85c2-466446ad9c58">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="be7dc4e8-0597-46fb-a194-7d86ba9223c1">
+            <TableID>dbo_EmployeeTable</TableID>
+            <ColumnID>Email</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bb0b89e6-393f-45dc-9b59-b20e81d6eb26">
+          <AttributeID>Номер Телефона</AttributeID>
+          <Name>Номер Телефона</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="848e3155-4e76-4711-853e-cee2bde227ff">
+      <ID>Иерархия</ID>
+      <Name>Иерархия</Name>
+      <Levels>
+        <Level dwd:design-time-name="a2a59505-2c44-4136-992e-c3c051f055ca">
+          <ID>Должность</ID>
+          <Name>Должность</Name>
+          <SourceAttributeID>Должность</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="b483d38c-faec-4175-8f0a-38f14bfcb546">
+          <ID>ФИО</ID>
+          <Name>ФИО</Name>
+          <SourceAttributeID>ФИО</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="eea9b9ab-9af7-48de-bec7-a964a9dcb189">
+          <ID>Адрес</ID>
+          <Name>Адрес</Name>
+          <SourceAttributeID>Адрес</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="55efdb54-16de-4bb7-a616-9f74ae4c96da">
+          <ID>Серия и Номер Паспорта</ID>
+          <Name>Серия и Номер Паспорта</Name>
+          <SourceAttributeID>Серия и Номер Паспорта</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f8681a02-71af-40cc-baf3-b90552127feb">
+          <ID>Номер Телефона</ID>
+          <Name>Номер Телефона</Name>
+          <SourceAttributeID>Номер Телефона</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1c721b85-98dc-49db-bc8a-53aefeffc73d">
+          <ID>Электронная Почта</ID>
+          <Name>Электронная Почта</Name>
+          <SourceAttributeID>Электронная Почта</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

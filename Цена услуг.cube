@@ -1,0 +1,288 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7bc27c50-a720-45db-b081-f177779acf75" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Цена услуг</ID>
+  <Name>Цена услуг</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="58dcf0d9-3cf9-4b0b-860e-22429aa1bf18">
+      <ID>Сотрудники</ID>
+      <Name>Сотрудники</Name>
+      <DimensionID>Сотрудники</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="aaccf94f-a54c-45cd-9aad-cfc3924d1ce5">
+          <AttributeID>ИД Сотрудника</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b3749e0f-8f18-49f8-8962-9b9bb12f5590">
+          <AttributeID>Серия и Номер Паспорта</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f206a214-84fd-4c8a-8a41-8a049ef71ad8">
+          <AttributeID>ФИО</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="edf620d5-bedd-4d90-ab7f-47800645871e">
+          <AttributeID>Должность</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9e92466b-a618-45c7-8179-2e6612c0628d">
+          <AttributeID>Номер Телефона</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="03eda77e-d610-4730-ad90-0bf60f58ead8">
+          <AttributeID>Адрес</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="40bac3e2-ea5b-4980-8a70-419601e597f0">
+          <AttributeID>Электронная Почта</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="7e6a531f-e1c7-45b9-b333-8b7fe17ab85a">
+          <HierarchyID>Иерархия</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="70d6d0ac-7d77-4cd4-a649-45d3d57927e4">
+      <ID>Услуги</ID>
+      <Name>Услуги</Name>
+      <DimensionID>Услуги</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="df6102c7-117a-4a84-bdf6-6be35b6ddc7f">
+          <AttributeID>ИД Услуги</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0adee65e-da34-407e-8128-8f20f27c070b">
+          <AttributeID>Название Услуги</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="49373712-80cf-4205-bab2-007675d41189">
+          <HierarchyID>Иерархия</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="dc9f9c1c-5e4b-4ae1-b741-aea6f269610e">
+      <ID>Даты</ID>
+      <Name>Даты</Name>
+      <DimensionID>Даты</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e03385cf-c55e-492f-a956-944b8c20473d">
+          <AttributeID>ИД Даты</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c9b4ad96-c211-414a-b624-667240b2500b">
+          <AttributeID>Год</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="070b7c62-22ea-41f0-9fde-a15a0469dac8">
+          <AttributeID>Месяц</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="29581338-8cee-44ba-baed-17c292737221">
+          <AttributeID>День</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="232eb72c-d543-4d46-bccb-4fb31240c02c">
+          <AttributeID>День Недели</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="d349213d-9c3d-4a95-9acc-155b2f823b42">
+          <HierarchyID>Иерархия</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="b783796b-c801-4e98-aeeb-ad82796c481d">
+      <ID>Телефон</ID>
+      <Name>Телефон</Name>
+      <DimensionID>Телефон</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b47042c9-3c23-4baf-bfb6-5d98bad66088">
+          <AttributeID>ИД Телефона</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="909075d9-1977-454d-8a24-42fadfdb3e55">
+          <AttributeID>Брэнд</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a02c3ba3-d47f-4dea-92be-11d19571086f">
+          <AttributeID>Модель</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="adaf1719-1646-4038-9247-536572bd1149">
+          <AttributeID>Серийный Номер</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1dbb5823-e39b-490e-a747-d5ab7c0c8384">
+          <AttributeID>Описание Поломки</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="9b94bfe3-272a-47ed-99f9-77a6b8bdf863">
+          <HierarchyID>Иерархия</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <CubePermissions>
+    <CubePermission dwd:design-time-name="3fe830f3-d703-4910-9c8b-9bc39e52c7b7">
+      <ID>CubePermission</ID>
+      <Name>CubePermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 1</RoleID>
+      <Read>Allowed</Read>
+      <Write>Allowed</Write>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="8ddd8882-47cb-4041-9df6-426759db0d45">
+      <ID>CubePermission 1</ID>
+      <Name>CubePermission 1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+  </CubePermissions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="87499bda-a277-46cc-abab-9a9103f3f9af">
+      <ID>Цены Услуг</ID>
+      <Name>Цены Услуг</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="c8f5b592-f4ab-4959-9747-07b4a2c595b8">
+          <ID>Цена Услуги</ID>
+          <Name>Цена Услуги</Name>
+          <Source dwd:design-time-name="e853e82b-3315-4abe-8919-820542c49eaa">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c0c31de3-8e7d-42af-9c6d-23e79e1fa3b2">
+              <TableID>dbo_PriceService</TableID>
+              <ColumnID>PriceService</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fc7c20dc-a20f-490e-9a20-1d83f77301d0">
+          <ID>Число Цены Услуг</ID>
+          <Name>Число Цены Услуг</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="249434cc-8dd5-430e-9cd9-e5e2766ebf55">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="a91a5de7-9efd-470e-98c3-ed6a3346bc5e">
+              <TableID>dbo_PriceService</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fdb818c5-c955-4235-9464-3cbe72dc258f">
+          <CubeDimensionID>Сотрудники</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="bcebda3e-ebe8-4cb5-92b5-5447037046ff">
+              <AttributeID>ИД Сотрудника</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6e4a74e5-bbaf-44f0-a67b-ddf854ba90e7">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="23b256fa-9973-4439-9ecf-e5aac2c31209">
+                    <TableID>dbo_PriceService</TableID>
+                    <ColumnID>IdEmployee</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b4be8818-6727-4a4c-9c11-d0ac78465b60">
+          <CubeDimensionID>Услуги</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="14dcf02b-66e5-42e7-9ac4-a6c8d0fb643d">
+              <AttributeID>ИД Услуги</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1c67c492-195f-4aff-a0e7-dbf5db9d7bf9">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="caa710ce-7e14-4fa4-862b-e5c6e519ce1e">
+                    <TableID>dbo_PriceService</TableID>
+                    <ColumnID>IdService</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="16bd8275-aaa7-4544-8fb5-f78fd9dee94e">
+          <CubeDimensionID>Даты</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a4d911a7-f665-43f5-9017-900b00be6228">
+              <AttributeID>ИД Даты</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="35113b1a-b9a7-45e0-94ce-46e9a26a4d87">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="18f33f89-39c2-4f0f-b513-2a89a9e2a5c9">
+                    <TableID>dbo_PriceService</TableID>
+                    <ColumnID>IdDate</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f044df05-77be-464c-a1f1-4b98965ae888">
+          <CubeDimensionID>Телефон</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="86f5f9ce-9162-4afb-88f3-9e27e54d4f16">
+              <AttributeID>ИД Телефона</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="55793219-74aa-471f-bdb8-13f108b95a99">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2cdec880-54e4-449c-85d1-e86190ef1c74">
+                    <TableID>dbo_PriceService</TableID>
+                    <ColumnID>IdRepair</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="21e31391-7878-4590-9831-568877c48ad7">
+    <DataSourceViewID>БД Ремонт телефонов</DataSourceViewID>
+  </Source>
+</Cube>
