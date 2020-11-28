@@ -117,14 +117,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>sVS+x0Pcqn7d4tw6umDwLr8UBEE=26.11.2020 18:40:4625.11.2020 21:58:27nfKoHyYbcaeeq+g1TNrDF1mcwzo=25.11.2020 21:58:2725.11.2020 21:58:27</TimeStamp>
+        <TimeStamp>ge5vyzazg4zyQpk3ihvGf5edD64=28.11.2020 1:00:5525.11.2020 21:58:27nfKoHyYbcaeeq+g1TNrDF1mcwzo=25.11.2020 21:58:2725.11.2020 21:58:27</TimeStamp>
         <ID>
           <String>Заказы</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>KRu7QjfdKtoxCTlHqb3/C4rPIm0=26.11.2020 18:40:4625.11.2020 22:17:16Tl/mykVukKewk0q7Jv8z+9vaTwk=25.11.2020 22:18:1125.11.2020 22:17:16</TimeStamp>
+        <TimeStamp>r1zFUaa6Jn74yBWDgx81eIko3aw=27.11.2020 23:39:0225.11.2020 22:17:16Tl/mykVukKewk0q7Jv8z+9vaTwk=25.11.2020 22:18:1125.11.2020 22:17:16</TimeStamp>
         <ID>
           <String>Зарплаты</String>
         </ID>
@@ -155,5 +155,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-11-26T11:54:37.023333Z</LastDeployed>
+  <LastDeployed>2020-11-28T04:46:18.133333Z</LastDeployed>
 </DeploymentSnapshot>
