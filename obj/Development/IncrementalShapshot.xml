@@ -19,126 +19,126 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>3O++1y5i3oOOjv+Y1aBPj81vpgo=25.11.2020 23:11:0825.11.2020 20:59:38</TimeStamp>
+        <TimeStamp>JWoG3ZyGHzkunjiyyNdOgJ17YYI=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>BD Repair Phone</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>J9NNADHFVK5lPBSlzsFz5nMy0/c=25.11.2020 21:27:2625.11.2020 21:00:05</TimeStamp>
+        <TimeStamp>CMCW7AtE9BWhQkkOnSckZyRtEnQ=28.11.2020 17:25:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>БД Ремонт телефонов</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>N8BADnGgA2kvGzvGOxxH5ybKJTs=25.11.2020 21:31:5625.11.2020 21:27:51</TimeStamp>
+        <TimeStamp>+H9Ve0jXv/UthcG7hDv4qfSrMPU=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Клиенты</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>SMuQ/KEfZ6ugovOK0MD197N+qqs=25.11.2020 21:34:2125.11.2020 21:31:56</TimeStamp>
+        <TimeStamp>oHBrquoQcSGRF2V/+/ktARF1j9U=29.11.2020 18:22:0529.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Даты</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>rBg5GWtj90Ss3Pz6Vgd790DZrRk=25.11.2020 21:35:5925.11.2020 21:34:21</TimeStamp>
+        <TimeStamp>g/oyRQ7tObBVv8QI7/kBelE2/9o=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Детали</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>lYjLS/DXl8V23eYaZECoDogHG38=25.11.2020 21:39:3925.11.2020 21:35:59</TimeStamp>
+        <TimeStamp>oJ+2TVZjswBhLft2mhyQ9fX0vf0=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Сотрудники</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>/BYR5CtYu+847ROCOj7neRQmpHY=25.11.2020 21:41:1725.11.2020 21:39:39</TimeStamp>
+        <TimeStamp>weZ512zfQvDmTORc1CVecp8ZbKQ=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Телефон</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>rIED6PwVKbp+Sf5yC1qLo9KMXbI=25.11.2020 21:43:0725.11.2020 21:41:17</TimeStamp>
+        <TimeStamp>zwB3XtpF7WWtdiYr9qRZ0JcII70=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Сервисный Центр</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>vlXeYoCOHgA879d7oi1TGwZFdrM=25.11.2020 21:43:3125.11.2020 21:43:07</TimeStamp>
+        <TimeStamp>0VWQxxACMnr3oEjF6aZa3afKv9U=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Услуги</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>acx9HauxvSacKSyuV3KE1jzBVBk=25.11.2020 21:44:5725.11.2020 21:43:31</TimeStamp>
+        <TimeStamp>zYOMY2y/A0t194AJQS/1YChYtqw=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Магазины</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>YOVPr+3GIbeSMk0KXWZEPBKnlnU=25.11.2020 21:46:0825.11.2020 21:44:57</TimeStamp>
+        <TimeStamp>fZPwtZY4WE0TyhjBaublMLxo9Ac=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Накладные Деталей</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>uuxocHc3UU7pLeE4V4Y5G4Ui+Rs=25.11.2020 21:50:4525.11.2020 21:46:08</TimeStamp>
+        <TimeStamp>DLhAUDfY4A7uyirQ4KafBfGLnaY=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Накладные Услуг</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>z5xQ+/z6HmWs3iU5tkVexwkvymQ=26.11.2020 18:40:4525.11.2020 21:50:45cMiqh28Q0wD5G/kndDx6PCNA0OY=25.11.2020 21:50:4525.11.2020 21:50:45</TimeStamp>
+        <TimeStamp>xit9pIC5Xj8E10jIcg7oD9gfyq4=28.11.2020 17:28:1629.11.2020 11:47:56dOT4RB4QnFX2xHr1clP01RuIfUA=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Цена деталей</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>ciZeR2npN/fc7MF1x8RIghRdD1E=26.11.2020 11:32:3925.11.2020 21:57:065ufm96DCGl2zKNw+8r4dP0sslj4=25.11.2020 21:57:0625.11.2020 21:57:06</TimeStamp>
+        <TimeStamp>XLuGMFpUMcH5IUdIBhk/ziMq8Z8=28.11.2020 17:28:1629.11.2020 11:47:56hNZhfimbenAMISjPuefhMnnh+go=28.11.2020 14:07:4929.11.2020 11:47:57</TimeStamp>
         <ID>
           <String>Цена услуг</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>ge5vyzazg4zyQpk3ihvGf5edD64=28.11.2020 1:00:5525.11.2020 21:58:27nfKoHyYbcaeeq+g1TNrDF1mcwzo=25.11.2020 21:58:2725.11.2020 21:58:27</TimeStamp>
-        <ID>
-          <String>Заказы</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>r1zFUaa6Jn74yBWDgx81eIko3aw=27.11.2020 23:39:0225.11.2020 22:17:16Tl/mykVukKewk0q7Jv8z+9vaTwk=25.11.2020 22:18:1125.11.2020 22:17:16</TimeStamp>
+        <TimeStamp>slusc5wQDcvNkJ+6LT9HbMm/tTo=28.11.2020 17:28:1629.11.2020 11:47:56dM3E+hRv39H+fagtH/LrAfng7Xk=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Зарплаты</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>BTTTVcHBVXGtW7acA5AeaWKfclc=30.11.2020 2:14:0029.11.2020 11:47:56s4qXbBS6CmD5Ddi06KvO0sTNF6Q=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
+        <ID>
+          <String>Заказы</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Role</Type>
-        <TimeStamp>Mv541WCV+hXWCH5OUD9z5CKxLvk=26.11.2020 11:32:3926.11.2020 11:27:52</TimeStamp>
+        <TimeStamp>lW5Tyz7x+gacpNqfSX2wl5sKP7A=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Role</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Role</Type>
-        <TimeStamp>jhNan2pOi0nzvsNEarf+MkochCI=26.11.2020 11:32:3926.11.2020 11:30:27</TimeStamp>
+        <TimeStamp>SQHKPbvDk4YSLIGzSz9nJfpJhtk=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Role 1</String>
         </ID>
@@ -146,7 +146,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>b5ptb8NEOD4qwhugJ18PFOWHcw4=26.11.2020 11:32:3925.11.2020 20:14:40</TimeStamp>
+      <TimeStamp>FkdddMQzfkYhwxO4V4mNHBPmERU=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
       <ID>
         <String>MultiDataBaseRepair3</String>
       </ID>
@@ -155,5 +155,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-11-28T04:46:18.133333Z</LastDeployed>
+  <LastDeployed>2020-11-29T19:14:09.943333Z</LastDeployed>
 </DeploymentSnapshot>
