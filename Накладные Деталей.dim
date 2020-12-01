@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="40faf797-de7c-49e2-b02b-b7b07696bfb0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dba5b02a-5501-4c53-914f-f3a6f730db49" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Накладные Деталей</ID>
   <Name>Накладные Деталей</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-139" scrolltop="-3771" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="10266" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-139" scrolltop="-3771" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="7990" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Накладные деталей" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="7276" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Накладные деталей" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="7276" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e00006c1c0000a50a0000" />
             </control>
@@ -101,31 +101,31 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3f093d84-09f5-4d72-bb05-f7d7e25b9c8a">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9ac492b8-79e9-4be8-baa1-ffe0abe9a455">
     <DataSourceViewID>БД Ремонт телефонов</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="394c96b3-4118-4f07-a47c-e79c605fc540">
+  <ErrorConfiguration dwd:design-time-name="b51f27f2-bf2d-4af0-80e9-91dcdfeeaba2">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="9f406001-8494-4d9e-b96e-5b411f4c5514">
+    <Attribute dwd:design-time-name="4a7bc946-41a4-4974-9aef-42a0a6359931">
       <ID>ИД Накладной Деталей</ID>
       <Name>ИД Накладной Деталей</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9ee3a3d1-c61b-4177-831a-fa1c2200f63e">
+        <KeyColumn dwd:design-time-name="dece4368-72b5-40a7-9d49-f67753cfa940">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="12080737-0741-4278-b31c-96fd2ffb9709">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aa4eef72-a9b6-416c-b1d8-5f75195edc94">
             <TableID>dbo_WaybillDetailsTable</TableID>
             <ColumnID>IdWaybillDetailsTable</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="0ab1c2ea-c57b-4aba-9bdf-1f9b1d28c92a">
+        <AttributeRelationship dwd:design-time-name="92cb4022-f0be-4a9c-8dd9-ba321a1d3110">
           <AttributeID>Масса Деталей футы</AttributeID>
           <Name>Масса Деталей футы</Name>
         </AttributeRelationship>
@@ -134,14 +134,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="6b75f09d-ef1a-463b-b40c-71d350baa88f">
+    <Attribute dwd:design-time-name="f316b477-9f6d-48c5-b79f-66c057af463e">
       <ID>Номер Накладной</ID>
-      <Name>Номер Накладной</Name>
+      <Name>Номер Накладной деталей</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2771c91d-7038-452e-8668-ed02b283b4c7">
+        <KeyColumn dwd:design-time-name="0ddc250e-897b-4849-84ee-240356bd20fd">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="db2ac0b4-a545-4c61-8de1-7b3a9f90b397">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1f014e0e-a740-4a7a-887f-9c7d2eef5a6b">
             <TableID>dbo_WaybillDetailsTable</TableID>
             <ColumnID>NumberWaybill</ColumnID>
           </Source>
@@ -151,42 +151,42 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="533322c3-933d-4ba7-8892-65b3623f7337">
+    <Attribute dwd:design-time-name="58b84511-9c70-441d-a7be-65d720b1fdf6">
       <ID>Масса Деталей кг</ID>
       <Name>Масса Деталей кг</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="96c3a8f2-bf5f-4ad5-bbdc-b98c67570e16">
+        <KeyColumn dwd:design-time-name="ad1bc101-8204-45dd-800b-d687a0d28473">
           <DataType>Double</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="58eb82b0-facf-4583-a829-a2b0a2217926">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0d5fe595-18f0-4a54-bb24-2c13b1cf2411">
             <TableID>dbo_WaybillDetailsTable</TableID>
             <ColumnID>WeightDetails</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="1b06fe53-b159-4fda-b636-78fc32bca896">
+        <AttributeRelationship dwd:design-time-name="d78e6f1d-f742-43b8-b6a4-bd60c74bef0c">
           <AttributeID>Номер Накладной</AttributeID>
-          <Name>Номер Накладной</Name>
+          <Name>Номер Накладной деталей</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="758377bf-811f-4510-a03b-04f0a0f6d4d8">
+    <Attribute dwd:design-time-name="f51d9355-0f52-471f-9a4d-bfbbe9581399">
       <ID>Масса Деталей футы</ID>
       <Name>Масса Деталей футы</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="aa4219c0-36e6-4775-8081-123cd328439b">
+        <KeyColumn dwd:design-time-name="c5bfdb5a-3d00-479d-a5e9-8520d3200698">
           <DataType>Double</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dc51d298-622d-4c29-8c03-233856f0ffd1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="857e22fc-5874-40c4-9737-f1a894cfbd8c">
             <TableID>dbo_WaybillDetailsTable</TableID>
             <ColumnID>Масса_x0020_деталей_x0020__x0028_футы_x0029_</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="a2a348f6-698f-4a38-a8b6-2d1c9c4cf3e3">
+        <AttributeRelationship dwd:design-time-name="ca8404d7-ebba-4bcb-8627-8b9987d63723">
           <AttributeID>Масса Деталей кг</AttributeID>
           <Name>Масса Деталей кг</Name>
         </AttributeRelationship>
@@ -197,21 +197,21 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="f9e3a61f-7806-4d23-8ff1-3283d537e428">
+    <Hierarchy dwd:design-time-name="1399e047-6927-47d1-bd26-5c507f9b48b8">
       <ID>Иерархия</ID>
       <Name>Иерархия</Name>
       <Levels>
-        <Level dwd:design-time-name="3c7ad8dd-aae2-404c-b121-668372c18a47">
+        <Level dwd:design-time-name="512e4d85-a2a3-4233-b5a6-ce65049961f0">
           <ID>Номер Накладной</ID>
           <Name>Номер Накладной</Name>
           <SourceAttributeID>Номер Накладной</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="02900cfc-06cf-4999-9fb3-b9607d79c271">
+        <Level dwd:design-time-name="4a2bd905-818e-4963-9f40-04aad0812302">
           <ID>Масса Деталей кг</ID>
           <Name>Масса Деталей кг</Name>
           <SourceAttributeID>Масса Деталей кг</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="6fa88e89-12b4-4fa0-83f6-b348b39f7c5e">
+        <Level dwd:design-time-name="85a9f7fc-6937-4bb7-9822-19a8ac1ff42e">
           <ID>Масса Деталей футы</ID>
           <Name>Масса Деталей футы</Name>
           <SourceAttributeID>Масса Деталей футы</SourceAttributeID>

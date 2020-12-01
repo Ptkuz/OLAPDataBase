@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="30f83cf5-ac95-46db-9941-5e77b714d928" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="20212268-022c-4990-82ee-f515eefde4fe" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>БД Ремонт телефонов</ID>
   <Name>БД Ремонт телефонов</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="74" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="7425" scrolltop="24765" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20796" y="8625" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="74" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="35" scrolltop="16922" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20796" y="9313" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
                   </font>
@@ -601,8 +601,8 @@
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>7425</DiagramViewPortLeft>
-            <DiagramViewPortTop>24765</DiagramViewPortTop>
+            <DiagramViewPortLeft>35</DiagramViewPortLeft>
+            <DiagramViewPortTop>16922</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>75</DiagramZoom>
@@ -696,21 +696,21 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Час" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="DATENAME(hh, date)" msprop:IsLogical="True" msprop:design-time-name="64bb0973-88c8-4c80-a378-a3f86dcf250c" msprop:DbColumnName="Час" minOccurs="0">
+                  <xs:element name="Час" msdata:ReadOnly="true" msprop:design-time-name="64bb0973-88c8-4c80-a378-a3f86dcf250c" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="Час" msprop:ComputedColumnExpression="DATENAME(hh, date)" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="30" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Минута" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="DATENAME(mi, date)" msprop:IsLogical="True" msprop:design-time-name="749d3785-6d04-47fc-a7f2-bb29daaeec9f" msprop:DbColumnName="Минута" minOccurs="0">
+                  <xs:element name="Минута" msdata:ReadOnly="true" msprop:design-time-name="749d3785-6d04-47fc-a7f2-bb29daaeec9f" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="Минута" msprop:ComputedColumnExpression="DATENAME(mi, date)" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="30" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Секунда" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="DATENAME(ss, date)" msprop:IsLogical="True" msprop:design-time-name="42ec9b11-43b0-4d67-ae66-7ec584a4d9d9" msprop:DbColumnName="Секунда" minOccurs="0">
+                  <xs:element name="Секунда" msdata:ReadOnly="true" msprop:design-time-name="42ec9b11-43b0-4d67-ae66-7ec584a4d9d9" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="Секунда" msprop:ComputedColumnExpression="DATENAME(ss, date)" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="30" />
@@ -948,7 +948,7 @@
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="IdWaybillDetailsTable" msprop:design-time-name="76289504-e4f9-4a39-9961-ebf5be39b149" msprop:DbColumnName="IdWaybillDetailsTable" msprop:FriendlyName="ИД накладной деталей" type="xs:int" />
-                  <xs:element name="NumberWaybill" msprop:design-time-name="14637cf8-2207-4ef9-a7e6-1f55cbfaa004" msprop:DbColumnName="NumberWaybill" msprop:FriendlyName="Номер накладной">
+                  <xs:element name="NumberWaybill" msprop:design-time-name="14637cf8-2207-4ef9-a7e6-1f55cbfaa004" msprop:DbColumnName="NumberWaybill" msprop:FriendlyName="Номер накладной деталей">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
@@ -964,7 +964,7 @@
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="IdWaybillServicesTable" msprop:design-time-name="2526121d-47a5-45b8-aee0-b1181c5f6eb6" msprop:DbColumnName="IdWaybillServicesTable" msprop:FriendlyName="ИД накладной услуг" type="xs:int" />
-                  <xs:element name="NumberWaybill" msprop:design-time-name="bb9da502-c472-41c0-8976-d5ed38a9ee73" msprop:DbColumnName="NumberWaybill" msprop:FriendlyName="Номер накладной" type="xs:int" />
+                  <xs:element name="NumberWaybill" msprop:design-time-name="bb9da502-c472-41c0-8976-d5ed38a9ee73" msprop:DbColumnName="NumberWaybill" msprop:FriendlyName="Номер накладной услуг" type="xs:int" />
                   <xs:element name="IdServiceCenter" msprop:design-time-name="e5c05ee3-2bc1-4555-8e54-64460ede33d2" msprop:DbColumnName="IdServiceCenter" msprop:FriendlyName="ИД сервисного центра" type="xs:int" />
                 </xs:sequence>
               </xs:complexType>
@@ -1045,77 +1045,77 @@
           <xs:selector xpath=".//dbo_WaybillServicesTable" />
           <xs:field xpath="IdServiceCenter" />
         </xs:keyref>
-        <xs:keyref name="FK_PriceService_EmployeeTable" refer="dbo_EmployeeTable_Constraint1">
+        <xs:keyref name="FK_PriceService_RepairPhoneTable" refer="dbo_RepairPhoneTable_Constraint1">
           <xs:selector xpath=".//dbo_PriceService" />
-          <xs:field xpath="IdEmployee" />
-        </xs:keyref>
-        <xs:keyref name="FK_PriceService_ServiceTable" refer="dbo_ServicesTable_Constraint1">
-          <xs:selector xpath=".//dbo_PriceService" />
-          <xs:field xpath="IdService" />
+          <xs:field xpath="IdRepair" />
         </xs:keyref>
         <xs:keyref name="FK_PriceService_DateTable" refer="dbo_DateTable_Constraint1">
           <xs:selector xpath=".//dbo_PriceService" />
           <xs:field xpath="IdDate" />
         </xs:keyref>
-        <xs:keyref name="FK_PriceService_RepairPhoneTable" refer="dbo_RepairPhoneTable_Constraint1">
+        <xs:keyref name="FK_PriceService_ServiceTable" refer="dbo_ServicesTable_Constraint1">
           <xs:selector xpath=".//dbo_PriceService" />
-          <xs:field xpath="IdRepair" />
+          <xs:field xpath="IdService" />
         </xs:keyref>
-        <xs:keyref name="FK_PriceDetail_DateTable" refer="dbo_DateTable_Constraint1">
-          <xs:selector xpath=".//dbo_PriceDetail" />
-          <xs:field xpath="IdDate" />
-        </xs:keyref>
-        <xs:keyref name="FK_PriceDetail_RepairPhoneTable" refer="dbo_RepairPhoneTable_Constraint1">
-          <xs:selector xpath=".//dbo_PriceDetail" />
-          <xs:field xpath="IdRepairPhone" />
-        </xs:keyref>
-        <xs:keyref name="FK_PriceDetail_DetailTable" refer="dbo_DetailsTable_Constraint1">
-          <xs:selector xpath=".//dbo_PriceDetail" />
-          <xs:field xpath="IdDetail" />
+        <xs:keyref name="FK_PriceService_EmployeeTable" refer="dbo_EmployeeTable_Constraint1">
+          <xs:selector xpath=".//dbo_PriceService" />
+          <xs:field xpath="IdEmployee" />
         </xs:keyref>
         <xs:keyref name="FK_PriceDetail_StoreTable" refer="dbo_StoreTable_Constraint1">
           <xs:selector xpath=".//dbo_PriceDetail" />
           <xs:field xpath="IdStore" />
         </xs:keyref>
-        <xs:keyref name="FK_PaymentTable_DateTable" refer="dbo_DateTable_Constraint1">
-          <xs:selector xpath=".//dbo_PaymentsTable" />
+        <xs:keyref name="FK_PriceDetail_DetailTable" refer="dbo_DetailsTable_Constraint1">
+          <xs:selector xpath=".//dbo_PriceDetail" />
+          <xs:field xpath="IdDetail" />
+        </xs:keyref>
+        <xs:keyref name="FK_PriceDetail_RepairPhoneTable" refer="dbo_RepairPhoneTable_Constraint1">
+          <xs:selector xpath=".//dbo_PriceDetail" />
+          <xs:field xpath="IdRepairPhone" />
+        </xs:keyref>
+        <xs:keyref name="FK_PriceDetail_DateTable" refer="dbo_DateTable_Constraint1">
+          <xs:selector xpath=".//dbo_PriceDetail" />
           <xs:field xpath="IdDate" />
         </xs:keyref>
         <xs:keyref name="FK_PaymentTable_EmployeeTable" refer="dbo_EmployeeTable_Constraint1">
           <xs:selector xpath=".//dbo_PaymentsTable" />
           <xs:field xpath="IdEmployee" />
         </xs:keyref>
-        <xs:keyref name="FK_OrderTable_ClientsTable" refer="dbo_ClientsTable_Constraint1">
-          <xs:selector xpath=".//dbo_OrderTable" />
-          <xs:field xpath="IdClient" />
-        </xs:keyref>
-        <xs:keyref name="FK_OrderTable_WaybillDetailsTable" refer="dbo_WaybillDetailsTable_Constraint1">
-          <xs:selector xpath=".//dbo_OrderTable" />
-          <xs:field xpath="IdWaybillDetailsTable" />
-        </xs:keyref>
-        <xs:keyref name="FK_OrderTable_DateTable" refer="dbo_DateTable_Constraint1">
-          <xs:selector xpath=".//dbo_OrderTable" />
+        <xs:keyref name="FK_PaymentTable_DateTable" refer="dbo_DateTable_Constraint1">
+          <xs:selector xpath=".//dbo_PaymentsTable" />
           <xs:field xpath="IdDate" />
         </xs:keyref>
         <xs:keyref name="FK_OrderTable_WaybillServicesTable" refer="dbo_WaybillServicesTable_Constraint1">
           <xs:selector xpath=".//dbo_OrderTable" />
           <xs:field xpath="IdWaybillServicesTable" />
         </xs:keyref>
-        <xs:keyref name="FK_AllServicesTable_ServicesTable" refer="dbo_ServicesTable_Constraint1">
-          <xs:selector xpath=".//dbo_AllServicesTable" />
-          <xs:field xpath="IdService" />
+        <xs:keyref name="FK_OrderTable_DateTable" refer="dbo_DateTable_Constraint1">
+          <xs:selector xpath=".//dbo_OrderTable" />
+          <xs:field xpath="IdDate" />
+        </xs:keyref>
+        <xs:keyref name="FK_OrderTable_WaybillDetailsTable" refer="dbo_WaybillDetailsTable_Constraint1">
+          <xs:selector xpath=".//dbo_OrderTable" />
+          <xs:field xpath="IdWaybillDetailsTable" />
+        </xs:keyref>
+        <xs:keyref name="FK_OrderTable_ClientsTable" refer="dbo_ClientsTable_Constraint1">
+          <xs:selector xpath=".//dbo_OrderTable" />
+          <xs:field xpath="IdClient" />
         </xs:keyref>
         <xs:keyref name="FK_AllServicesTable_WaybillServicesTable" refer="dbo_WaybillServicesTable_Constraint1">
           <xs:selector xpath=".//dbo_AllServicesTable" />
           <xs:field xpath="IdWaybillServices" />
         </xs:keyref>
-        <xs:keyref name="FK_AllDetailsTable_WaybillDetailsTable" refer="dbo_WaybillDetailsTable_Constraint1">
-          <xs:selector xpath=".//dbo_AllDetailsTable" />
-          <xs:field xpath="IdWaybillDetails" />
+        <xs:keyref name="FK_AllServicesTable_ServicesTable" refer="dbo_ServicesTable_Constraint1">
+          <xs:selector xpath=".//dbo_AllServicesTable" />
+          <xs:field xpath="IdService" />
         </xs:keyref>
         <xs:keyref name="FK_AllDetailsTable_DetailsTable" refer="dbo_DetailsTable_Constraint1">
           <xs:selector xpath=".//dbo_AllDetailsTable" />
           <xs:field xpath="IdDetail" />
+        </xs:keyref>
+        <xs:keyref name="FK_AllDetailsTable_WaybillDetailsTable" refer="dbo_WaybillDetailsTable_Constraint1">
+          <xs:selector xpath=".//dbo_AllDetailsTable" />
+          <xs:field xpath="IdWaybillDetails" />
         </xs:keyref>
       </xs:element>
     </xs:schema>

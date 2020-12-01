@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>CMCW7AtE9BWhQkkOnSckZyRtEnQ=28.11.2020 17:25:4929.11.2020 11:47:56</TimeStamp>
+        <TimeStamp>YEhM9ssd4Fht6a9JTXwEZwynme0=01.12.2020 15:48:1029.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>БД Ремонт телефонов</String>
         </ID>
@@ -89,14 +89,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>fZPwtZY4WE0TyhjBaublMLxo9Ac=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
+        <TimeStamp>f6YXoWWkBaEE5pkJ8Kq2pcmeuH8=01.12.2020 15:51:1629.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Накладные Деталей</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>DLhAUDfY4A7uyirQ4KafBfGLnaY=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
+        <TimeStamp>sdsHRv+aPP+pH8tfESFZtDdmaYI=01.12.2020 15:51:1629.11.2020 11:47:56</TimeStamp>
         <ID>
           <String>Накладные Услуг</String>
         </ID>
@@ -117,16 +117,16 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>slusc5wQDcvNkJ+6LT9HbMm/tTo=28.11.2020 17:28:1629.11.2020 11:47:56dM3E+hRv39H+fagtH/LrAfng7Xk=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
+        <TimeStamp>dw7eSzukuCPx+CK6EMJiXOiQViE=01.12.2020 15:55:2029.11.2020 11:47:56s4qXbBS6CmD5Ddi06KvO0sTNF6Q=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
-          <String>Зарплаты</String>
+          <String>Заказы</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>BTTTVcHBVXGtW7acA5AeaWKfclc=30.11.2020 2:14:0029.11.2020 11:47:56s4qXbBS6CmD5Ddi06KvO0sTNF6Q=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
+        <TimeStamp>slusc5wQDcvNkJ+6LT9HbMm/tTo=28.11.2020 17:28:1629.11.2020 11:47:56dM3E+hRv39H+fagtH/LrAfng7Xk=28.11.2020 14:07:4929.11.2020 11:47:56</TimeStamp>
         <ID>
-          <String>Заказы</String>
+          <String>Зарплаты</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
@@ -155,5 +155,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-11-29T19:14:09.943333Z</LastDeployed>
+  <LastDeployed>2020-12-01T08:55:25.4Z</LastDeployed>
 </DeploymentSnapshot>

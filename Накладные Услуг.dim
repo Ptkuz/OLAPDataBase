@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="56107ef6-f7bc-40c0-8a2e-af6c5466d528" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cae991e3-1c48-4cd0-baf2-930869963a68" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Накладные Услуг</ID>
   <Name>Накладные Услуг</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-205" scrolltop="-1208" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="10266" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-205" scrolltop="-1208" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="7990" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Накладные услуг" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="7144" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Накладные услуг" left="20" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="7144" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000e81b0000fe080000" />
             </control>
@@ -30,7 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Сервисный центр" left="86" top="4702" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="7011" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Сервисный центр" left="86" top="4702" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="7011" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000631b00004d0c0000" />
             </control>
@@ -41,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="3192" top="2002" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3192" top="2002" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -107,41 +107,41 @@
               </Attributes>
               <Position x="20" y="20" />
             </Shape>
+            <Shape Id="Номер Накладной" Expanded="false">
+              <Attributes>
+                <Attribute Id="Номер Накладной" />
+              </Attributes>
+              <Position x="240" y="20" />
+            </Shape>
             <Shape Id="ИД Сервисного Центра" Expanded="false">
               <Attributes>
                 <Attribute Id="ИД Сервисного Центра" />
               </Attributes>
-              <Position x="240" y="20" />
+              <Position x="240" y="68" />
             </Shape>
             <Shape Id="Номер Телефона" Expanded="false">
               <Attributes>
                 <Attribute Id="Номер Телефона" />
               </Attributes>
-              <Position x="460" y="20" />
+              <Position x="460" y="68" />
             </Shape>
             <Shape Id="Адрес" Expanded="false">
               <Attributes>
                 <Attribute Id="Адрес" />
               </Attributes>
-              <Position x="680" y="20" />
+              <Position x="680" y="68" />
             </Shape>
             <Shape Id="ИНН Сервисного Центра" Expanded="false">
               <Attributes>
                 <Attribute Id="ИНН Сервисного Центра" />
               </Attributes>
-              <Position x="900" y="20" />
+              <Position x="900" y="68" />
             </Shape>
             <Shape Id="Название Сервиса" Expanded="false">
               <Attributes>
                 <Attribute Id="Название Сервиса" />
               </Attributes>
-              <Position x="1120" y="20" />
-            </Shape>
-            <Shape Id="Номер Накладной" Expanded="false">
-              <Attributes>
-                <Attribute Id="Номер Накладной" />
-              </Attributes>
-              <Position x="240" y="68" />
+              <Position x="1120" y="68" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -150,50 +150,50 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a5eb754e-8530-4fd1-a0c8-e5abe132f88a">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e3f3c6d3-a3ac-4c11-acae-5c2e1745ff38">
     <DataSourceViewID>БД Ремонт телефонов</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="8ea49466-03ed-433d-a98c-b6021220961d">
+  <ErrorConfiguration dwd:design-time-name="4134376d-f88d-457c-96cc-e560d65aebff">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="7431c16f-719f-498d-b47a-dc154024187c">
+    <Attribute dwd:design-time-name="4d989560-16e9-43b3-92db-d374b5bb27d1">
       <ID>ИД Накладной Услуг</ID>
       <Name>ИД Накладной Услуг</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4e8f68b6-60ea-4eaa-b09d-306cbbb7830e">
+        <KeyColumn dwd:design-time-name="7a30b07e-cc82-4ea2-9e10-f720037b5a1d">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7c0dad53-ee8d-4821-831d-f9049f72ad4b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="47857787-17d5-4ceb-b15f-8ee87bf26837">
             <TableID>dbo_WaybillServicesTable</TableID>
             <ColumnID>IdWaybillServicesTable</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="5d8dfe8e-b7f5-4fe1-a3e0-b58f21a8b4e3">
-          <AttributeID>Номер Накладной</AttributeID>
-          <Name>Номер Накладной</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="56cff3a7-fbeb-47a3-9bc1-17a5a8d7c4c2">
+        <AttributeRelationship dwd:design-time-name="27c5912b-d7be-42d7-83d1-f1a5bfe729b2">
           <AttributeID>ИД Сервисного Центра</AttributeID>
           <Name>ИД Сервисного Центра</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c41bd1d7-3183-47a6-8a06-3bc833d62e5a">
+          <AttributeID>Номер Накладной</AttributeID>
+          <Name>Номер Накладной услуг</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d949f511-7366-461b-920c-6847050f35b1">
+    <Attribute dwd:design-time-name="a64f6374-f1de-4e8d-81ac-2f25ee5dd684">
       <ID>Номер Накладной</ID>
-      <Name>Номер Накладной</Name>
+      <Name>Номер Накладной услуг</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="44105862-f969-4f00-ac0c-8f56cf1cc6f8">
+        <KeyColumn dwd:design-time-name="65a2b7c4-43b5-4951-8f94-051cc6d4f62e">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="152a4d52-f1f5-4925-bff0-db75dca80c36">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4541c9bb-0ff0-42d7-a614-f89c8cdf9fd5">
             <TableID>dbo_WaybillServicesTable</TableID>
             <ColumnID>NumberWaybill</ColumnID>
           </Source>
@@ -203,20 +203,20 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="efb517a9-e0d9-4d0b-b1c5-38a7f385b756">
+    <Attribute dwd:design-time-name="18eb6689-311a-4b4f-9d38-6a6c4c543582">
       <ID>ИД Сервисного Центра</ID>
       <Name>ИД Сервисного Центра</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e747c365-c23e-4963-84ba-38b3f60aed8a">
+        <KeyColumn dwd:design-time-name="ebc7f260-b82f-426d-9a4f-76869e4f7a8b">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4231979e-f5e0-49b7-9aa2-f86a4ccf8905">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b6cdeba4-89ee-4388-a259-6b900488419c">
             <TableID>dbo_ServiceCenterTable</TableID>
             <ColumnID>IdServiceCenter</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="d4ef65e0-fb03-4f2b-b6d3-f3564b678e7d">
+        <AttributeRelationship dwd:design-time-name="70921331-f97e-47f2-acf3-d0c519dc00bf">
           <AttributeID>Номер Телефона</AttributeID>
           <Name>Номер Телефона</Name>
         </AttributeRelationship>
@@ -225,14 +225,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c0003903-f154-4192-891a-6ed56a880674">
+    <Attribute dwd:design-time-name="a6580fc1-be60-4d1a-bde2-e55d9d6b5747">
       <ID>Название Сервиса</ID>
       <Name>Название Сервиса</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a8e29678-5dbe-49bf-a4bc-5b5abaaeaa30">
+        <KeyColumn dwd:design-time-name="8e7b078c-ce25-4d5e-8e3c-76bba39aca1f">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="57c87d12-e934-4f32-b78a-baf88dd8c93c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a11e8ed9-cd5b-4b20-88ab-2c9ecadb4a6b">
             <TableID>dbo_ServiceCenterTable</TableID>
             <ColumnID>NameAddress</ColumnID>
           </Source>
@@ -242,20 +242,20 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="36defff4-db53-497d-8777-7b0017ebf211">
+    <Attribute dwd:design-time-name="030ff615-fead-452b-8570-d77ac830cb2f">
       <ID>ИНН Сервисного Центра</ID>
       <Name>ИНН Сервисного Центра</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3827f52a-7558-4ef8-b228-152e6e00dc28">
+        <KeyColumn dwd:design-time-name="fb4c054a-945e-4767-9add-035e066c71b5">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="130d5cdd-a8ca-49bb-b418-06af4753e3f4">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c43b72ef-7f0f-4dae-a312-752229ef3f93">
             <TableID>dbo_ServiceCenterTable</TableID>
             <ColumnID>INNServiceCenter</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="12fd08b0-69e2-46be-b23a-a1e5d64d83ac">
+        <AttributeRelationship dwd:design-time-name="981e8dbf-b985-4710-8280-a797591e2b83">
           <AttributeID>Название Сервиса</AttributeID>
           <Name>Название Сервиса</Name>
         </AttributeRelationship>
@@ -264,21 +264,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e4d4e654-bff6-40b3-aef7-94bbcd2578b6">
+    <Attribute dwd:design-time-name="02540ee2-6f7f-4e85-8049-b9b1f3c0bde5">
       <ID>Адрес</ID>
       <Name>Адрес</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="8aa711ab-50ea-4506-97ac-29e34793c1a4">
+        <KeyColumn dwd:design-time-name="1cf90a85-3d4e-4d85-93f7-3a679781c5de">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4f15d204-6719-474d-834b-f3ad5638a5b1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="db1cdd5f-a069-4a12-baa0-4751d68e598f">
             <TableID>dbo_ServiceCenterTable</TableID>
             <ColumnID>Address</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="cb91fafe-6198-445e-9885-9849901e4615">
+        <AttributeRelationship dwd:design-time-name="a9ae7bff-1d25-41c9-99b0-bcef0d3d52c1">
           <AttributeID>ИНН Сервисного Центра</AttributeID>
           <Name>ИНН Сервисного Центра</Name>
         </AttributeRelationship>
@@ -287,20 +287,20 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="70edd3b2-9dcb-4960-a3cc-131ca3ac8115">
+    <Attribute dwd:design-time-name="b67eb397-c5ef-4d44-8b44-cfe415be6ac3">
       <ID>Номер Телефона</ID>
       <Name>Номер Телефона</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="29cf914c-908a-40cc-8eba-5e7879947a90">
+        <KeyColumn dwd:design-time-name="246a6821-4961-434f-a487-84e4161e1493">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="063da5c5-399d-4215-b081-f093bd6ddcfe">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9bd42b14-2194-46c0-a214-26afae5424bc">
             <TableID>dbo_ServiceCenterTable</TableID>
             <ColumnID>NumberPhone</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="a19a3db4-9efd-4c20-a166-70c557f46295">
+        <AttributeRelationship dwd:design-time-name="4de05b12-4be4-4980-9806-f87898441a12">
           <AttributeID>Адрес</AttributeID>
           <Name>Адрес</Name>
         </AttributeRelationship>
@@ -311,31 +311,31 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="405673ba-f7b0-4842-9c54-147a29df0e54">
+    <Hierarchy dwd:design-time-name="debcd7ff-8c64-4dc3-8cf4-6349bb62350c">
       <ID>Иерархия</ID>
       <Name>Иерархия</Name>
       <Levels>
-        <Level dwd:design-time-name="bec892f1-f505-4a48-84fa-231e102a70aa">
+        <Level dwd:design-time-name="97d45692-c08b-48c5-ac31-922604dc6460">
           <ID>Номер Накладной</ID>
           <Name>Номер Накладной</Name>
           <SourceAttributeID>Номер Накладной</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="15b29623-09f2-4010-8f41-d5e2d6af1a54">
+        <Level dwd:design-time-name="9858b0a7-ab6d-4757-a67b-827ae626953b">
           <ID>Название Сервиса</ID>
           <Name>Название Сервиса</Name>
           <SourceAttributeID>Название Сервиса</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="39e8b708-f007-4f03-8311-20419b606cd1">
+        <Level dwd:design-time-name="d42fd181-744e-45a9-9944-bb14e7e8255a">
           <ID>ИНН Сервисного Центра</ID>
           <Name>ИНН Сервисного Центра</Name>
           <SourceAttributeID>ИНН Сервисного Центра</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="62fe3e05-e962-4792-bdad-3dea38cdfacf">
+        <Level dwd:design-time-name="b897f604-55a1-4cae-9b4f-9a9fd2af8a1f">
           <ID>Адрес</ID>
           <Name>Адрес</Name>
           <SourceAttributeID>Адрес</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="759fa5a6-6925-45c0-b1d2-88e7e0e0ef99">
+        <Level dwd:design-time-name="cc623279-d6b3-430c-a193-12b568012244">
           <ID>Номер Телефона</ID>
           <Name>Номер Телефона</Name>
           <SourceAttributeID>Номер Телефона</SourceAttributeID>

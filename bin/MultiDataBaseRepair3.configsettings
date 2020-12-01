@@ -71,27 +71,6 @@
         </MeasureGroups>
       </Cube>
       <Cube>
-        <ID>Зарплаты</ID>
-        <MeasureGroups>
-          <MeasureGroup>
-            <ID>Зарплаты</ID>
-            <Partitions>
-              <Partition>
-                <ID>Зарплаты</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Цены Услуг</ID>
-            <Partitions>
-              <Partition>
-                <ID>Цены Услуг</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-        </MeasureGroups>
-      </Cube>
-      <Cube>
         <ID>Заказы</ID>
         <MeasureGroups>
           <MeasureGroup>
@@ -123,6 +102,27 @@
             <Partitions>
               <Partition>
                 <ID>Цены Деталей</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Цены Услуг</ID>
+            <Partitions>
+              <Partition>
+                <ID>Цены Услуг</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Зарплаты</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Зарплаты</ID>
+            <Partitions>
+              <Partition>
+                <ID>Зарплаты</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
